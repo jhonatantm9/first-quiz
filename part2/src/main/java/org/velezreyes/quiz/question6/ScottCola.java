@@ -2,13 +2,8 @@ package org.velezreyes.quiz.question6;
 
 public class ScottCola implements Drink {
 
-    private String name;
-    private boolean isFizzy;
-
-    public ScottCola(String name, boolean isFizzy) {
-        this.name = name;
-        this.isFizzy = isFizzy;
-    }
+    private String name = "ScottCola";
+    private boolean isFizzy = true;
 
     @Override
     public String getName() {

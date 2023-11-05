@@ -19,7 +19,7 @@ public class VendingMachineImpl implements VendingMachine {
       case "ScottCola":
         if (money >= 75) {
           money -= 75;
-          return new ScottCola("ScottCola", true);
+          return new ScottCola();
         } else {
           throw new NotEnoughMoneyException();
         }
@@ -27,7 +27,7 @@ public class VendingMachineImpl implements VendingMachine {
       case "KarenTea":
         if (money >= 100) {
           money -= 100;
-          return new KarenTea("KarenTea", false);
+          return new KarenTea();
         } else {
           throw new NotEnoughMoneyException();
         }

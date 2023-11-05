@@ -2,13 +2,8 @@ package org.velezreyes.quiz.question6;
 
 public class KarenTea implements Drink {
 
-    private String name;
-    private boolean isFizzy;
-
-    public KarenTea(String name, boolean isFizzy) {
-        this.name = name;
-        this.isFizzy = isFizzy;
-    }
+    private String name = "KarenTea";
+    private boolean isFizzy = false;
 
     @Override
     public String getName() {
